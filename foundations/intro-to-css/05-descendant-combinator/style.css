@@ -1,5 +1,5 @@
 /* Add CSS Styling */
-div p /* .container .text*/
+div p /* OR: .container .text, div .text, .container p*/
 {
   background-color: yellow;
   color: red;
