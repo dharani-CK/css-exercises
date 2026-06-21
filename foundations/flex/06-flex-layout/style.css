@@ -14,7 +14,7 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 0px;
   background: #eee;
 }
 
@@ -23,4 +23,47 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/*solution*/
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+.right-links, .left-links{
+  display: flex;
+  gap: 10px;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer{
+  background-color: #eeeeee;
+  margin-top: auto;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  margin-top: 10px;
 }
